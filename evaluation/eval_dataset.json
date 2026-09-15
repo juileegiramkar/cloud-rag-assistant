@@ -1,0 +1,27 @@
+[
+  {
+    "question": "How can I monitor Amazon ECS applications?",
+    "expected_topic": "ECS monitoring",
+    "relevant_pages": [124, 119, 103]
+  },
+  {
+    "question": "How does Amazon ECS Service Connect help connect services?",
+    "expected_topic": "ECS Service Connect",
+    "relevant_pages": [41]
+  },
+  {
+    "question": "What security practices should be followed when running applications on Amazon ECS?",
+    "expected_topic": "ECS security",
+    "relevant_pages": [105, 108, 134, 131]
+  },
+  {
+    "question": "How should logging be handled for Amazon ECS applications?",
+    "expected_topic": "ECS logging",
+    "relevant_pages": [14, 124]
+  },
+  {
+    "question": "What is the recipe for making chocolate cake?",
+    "expected_topic": "out of scope",
+    "relevant_pages": []
+  }
+]
