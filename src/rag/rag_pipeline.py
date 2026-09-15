@@ -1,3 +1,5 @@
+from multiprocessing import context
+
 from src.ingestion.embedder import Embedder
 from src.rag.vector_store import VectorStore
 from src.rag.llm import LocalLLM
@@ -89,9 +91,9 @@ Rules:
 1. Do not use information that is not supported by the context.
 2. If the context does not contain enough information,
    say that the documentation does not provide enough information.
-3. When making a factual claim, cite the supporting source
-   using its source number, for example [Source 1].
-4. Do not invent source numbers.
+3. Answer the question directly and concisely.
+4. Do not mention sources, page numbers, or citations.
+5. Do not add unrelated information.
 
 Question:
 {question}
